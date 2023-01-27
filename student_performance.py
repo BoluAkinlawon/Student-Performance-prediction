@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
-#print("0 means no stroke, 1 means stroke")
+print("Welcome to the web app")
 model = pickle.load(open('ann_model.pkl', 'rb'))
 
 def main():
