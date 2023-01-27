@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
-import tensorflow as tf
-from tensorflow import keras
+#import tensorflow as tf
+#from tensorflow import keras
 print("Welcome to the web app")
 model = pickle.load(open('ann_model.pkl', 'rb'))
 
